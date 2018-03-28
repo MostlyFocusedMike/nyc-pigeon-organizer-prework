@@ -1,5 +1,4 @@
 def nyc_pigeon_organizer(data)
-  new_hash = {}
   data.each_with_object({}) do |stat,hash|
     hash.each do |specific,birds| #purple
       birds.each do |bird|
